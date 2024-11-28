@@ -89,12 +89,16 @@
     "Host": "localhost",
     "StudiesMetadata": "Full",
     "SeriesMetadata": "Full",
-    "Servers" : {
-      "zhiva" : [ "http://localhost:8042/pacs/", "zhiva-admin", "Gf3hDbjY6HkdDsRh" ]
+    "Servers": {
+      "zhiva": [
+        "http://localhost:8042/pacs/",
+        "zhiva-admin",
+        "Gf3hDbjY6HkdDsRh"
+      ]
     }
   },
 
-  "DicomTlsEnabled": true,
+  "DicomTlsEnabled": false,
 
   "DicomTlsCertificate": "/etc/orthanc/orthanc.crt",
 
@@ -110,7 +114,7 @@
 
   "DicomAlwaysAllowFind": false,
 
-  "DicomAlwaysAllowGet": false,
+  "DicomAlwaysAllowGet": true,
 
   "DicomAlwaysAllowMove": false,
 
